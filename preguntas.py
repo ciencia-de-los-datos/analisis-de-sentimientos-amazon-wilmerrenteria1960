@@ -173,7 +173,7 @@ def pregunta_05():
     gridSearchCV = pregunta_04()
 
     # Cargue las variables.
-    X_train, X_test, y_train, y_test = pregunta_02()
+    x_train, x_test, y_train, y_test = pregunta_02()
 
     # Evalúe el pipeline con los datos de entrenamiento usando la matriz de confusion.
     cfm_train = confusion_matrix(
